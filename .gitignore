@@ -1,5 +1,6 @@
 .gradle/
 .idea/
+protobuf-demo.iml
 libs/
 out/
 build/
