@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package com.thoughtworks.zpay;
+
+message Transaction {
+    string transaction_reference = 1;
+    sint32 amount = 2;
+    string debit_account = 3;
+    string credit_account = 4;
+    string description = 5;
+    string status = 6;
+}
